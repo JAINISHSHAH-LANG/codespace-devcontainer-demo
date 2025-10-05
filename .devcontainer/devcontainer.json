@@ -4,6 +4,18 @@
     "features": {
         "ghcr.io/devcontainers/features/python:1": {}
     },
+    "postCreateCommand": "uv pip install fastapi uvicorn",
+    "extensions": [
+        "astral-sh.uv",
+        "ms-python.python"
+    ]
+}
+{
+    "name": "ga2-88dfe9",
+    "image": "ghcr.io/devcontainers/features/python:1",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {}
+    },
     "postCreateCommand": "pip install --user fastapi uvicorn",
     "extensions": [
         "astral-sh.uv",
